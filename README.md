@@ -1,6 +1,6 @@
 # Caixa Eletrônico
 
-Este projeto simula o funcionamento de um caixa eletrônico, permitindo a interação com operações básicas bancárias, como depósito, saque e consulta de saldo.
+Este projeto simula o funcionamento de um caixa eletrônico, permitindo a interação das operações básicas bancárias de depósito, saque e consulta de saldo.
 
 ## Estrutura do Projeto
 
