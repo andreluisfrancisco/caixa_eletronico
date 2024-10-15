@@ -1,5 +1,5 @@
-from models.atmModels import Cliente, Conta
-from services.atmServices import AtmServices
+from models.atm_models import Cliente, Conta
+from services.atm_services import AtmServices
 
 class CaixaEletronico:
 

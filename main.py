@@ -1,5 +1,5 @@
-from controllers.atmControllers import CaixaEletronico
-from views.atmViews import iniciar_caixa_eletronico
+from controllers.atm_controllers import CaixaEletronico
+from views.atm_views import iniciar_caixa_eletronico
 
 def main():
     caixa_eletronico = CaixaEletronico() 
