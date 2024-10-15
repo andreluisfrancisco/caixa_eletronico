@@ -1,3 +1,4 @@
+from common.cpf_utils import validar_cpf 
 from random import randint
 
 class Cliente:
@@ -6,13 +7,9 @@ class Cliente:
         self.cpf = self._validar_ou_lancar_excecao(cpf)
 
     def _validar_ou_lancar_excecao(self, cpf):
-        if not self._cpf_valido(cpf):
+        if not validar_cpf(cpf):  
             raise ValueError("CPF inválido.")
         return cpf
-
-    def _cpf_valido(self, cpf):
-        return len(cpf) == 11 and cpf.isdigit()
-
 
 class Conta:
     def __init__(self, cliente):
