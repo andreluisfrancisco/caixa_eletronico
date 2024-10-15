@@ -32,7 +32,7 @@ class CaixaEletronico:
             elif opcao == '2':
                 valor = self._obter_valor("Digite o valor para depósito: ")
                 if valor is not None:
-                    self.conta.deposito(valor)
+                    self.conta.depositar(valor)
 
             elif opcao == '3':
                 valor = self._obter_valor("Digite o valor para saque: ")

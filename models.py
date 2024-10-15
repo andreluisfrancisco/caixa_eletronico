@@ -23,7 +23,7 @@ class Conta:
     def consultar_saldo(self):
         return self.saldo
 
-    def deposito(self, valor):
+    def depositar(self, valor):
         if valor > 0:
             self.saldo += valor
             print(f'Depósito de R${valor:.2f} realizado com sucesso.')
