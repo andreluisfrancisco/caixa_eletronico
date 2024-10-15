@@ -4,9 +4,6 @@ Este projeto simula o funcionamento de um caixa eletrônico, permitindo a intera
 
 ## Estrutura do Projeto
 
-MVC
-
-
 ### Arquivos e Diretórios
 
 - **`main.py`**: Este é o ponto de entrada do aplicativo. Aqui, a aplicação é inicializada, e a interação do usuário com o caixa eletrônico é gerenciada.
