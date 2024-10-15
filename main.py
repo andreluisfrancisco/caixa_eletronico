@@ -1,4 +1,4 @@
-from atm import CaixaEletronico
+from controllers.atmControllers import CaixaEletronico
 
 def main():
     caixa_eletronico = CaixaEletronico()

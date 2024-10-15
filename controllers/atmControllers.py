@@ -1,4 +1,5 @@
-from models import Cliente, Conta
+from models.atmModels import Cliente, Conta
+from services.atmServices import AtmServices
 
 class CaixaEletronico:
 
@@ -32,16 +33,15 @@ class CaixaEletronico:
             elif opcao == '2':
                 valor = self._obter_valor("Digite o valor para depósito: ")
                 if valor is not None:
-                    self.conta.depositar(valor)
+                    AtmServices.depositar(self.conta, valor)
 
             elif opcao == '3':
                 valor = self._obter_valor("Digite o valor para saque: ")
                 if valor is not None:
-                    if not self.conta.sacar(valor):
-                        print("Operação de saque falhou.")
+                    AtmServices.sacar(self.conta, valor)
 
             elif opcao == '4':
-                self.conta.extrato()
+                AtmServices.gerar_extrato(self.conta)
 
             elif opcao == '5':
                 print("Encerrando operação. Até logo!")
