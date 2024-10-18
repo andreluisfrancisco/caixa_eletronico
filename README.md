@@ -25,5 +25,4 @@ Este projeto simula o funcionamento de um caixa eletrônico, permitindo a intera
 
 ## Como Usar
 
-```bash
 python main.py
