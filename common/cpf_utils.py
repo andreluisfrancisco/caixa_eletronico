@@ -1,5 +1,3 @@
-# TODO: Implementar a validação de CPF
-
 def validar_cpf(cpf):
     if not cpf.isdigit() or len(cpf) != 11:
         return False
