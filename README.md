@@ -22,7 +22,7 @@ Este projeto simula o funcionamento de um caixa eletrônico, permitindo a intera
 
 - **`services/`**: Contém a lógica de negócios, isolando as operações relacionadas ao serviço.
 
-- **`atm_services.py`**: Define a classe `AtmServices`, que contém métodos para operações como depósito, saque e geração de extratos, mantendo a lógica de negócios separada dos controladores.
+- **`atm_services.py`**: Define a classe `AtmServices`, que contém métodos para operações de depósito, saque e geração de extratos, mantendo a lógica de negócios separada dos controladores.
 
 - **`views/`**: Contém a lógica relacionada à apresentação, que pode incluir interações de usuário.
 
