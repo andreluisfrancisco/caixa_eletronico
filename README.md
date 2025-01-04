@@ -23,6 +23,3 @@ Este projeto simula o funcionamento de um caixa eletrônico, permitindo a intera
 - **`views/`**: Contém a lógica relacionada à apresentação, que pode incluir interações de usuário.
   - **`atm_views.py`**: Este arquivo pode conter funções para exibir mensagens ao usuário, como boas-vindas, opções do menu e feedback sobre as operações realizadas.
 
-## Como Usar
-
-python main.py
